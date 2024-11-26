@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Hello, I'm Chaitrali</h1>
+            <p>Aspiring Machine Learning and Data Science Enthusiast</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>
+                    I am Chaitrali, a passionate Machine Learning and Data Science enthusiast dedicated to leveraging technology for impactful and innovative solutions. 
+                    With experience in domains like healthcare, social welfare, and IoT, I have contributed to projects such as medical diagnostics and diabetes prognosis, presenting research at international conferences. <br><br> I thrive on exploring cutting-edge advancements, solving real-world challenges through data-driven insights, and collaborating with like-minded individuals to drive meaningful innovation. As a lifelong learner, I am committed to expanding my expertise and creating solutions that make a difference.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="D:\B. Tech Third Year\TY Sem 1\CNT\Portfolio_Chaitrali\Resources\Chaitrali.jpg" alt="Your Photo">
+            </div>
+        </div>
+    </section>
+    
+    <style>
+        #about {
+            padding: 30px;
+        }
+    
+        .about-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            gap: 30px;
+            margin-left: 5cqb;
+        }
+    
+        .about-text {
+            text-align: left;
+            margin-left: 50px;
+        }
+    
+        .about-image img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 30px;
+            margin-left: 50px;
+        }
+    </style>
+    
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Dementia Prognosis and Early care using Deep Learning (Industry Project) - Passion Infotech</h3>
+            <p>Trained two Deep Learning Models for Dementia Prognosis, one using patient MRI images, another using
+                Facial expression dataset.<br>
+                Analysis of different CNN models to bring out the best one for the given Industry problem statement.
+            </p>
+        </div>
+        <div class="project">
+            <h3>Bank Management System using MySQL (Personal Project)</h3>
+            <p>Designed and implemented a comprehensive Bank Management System using MySQL, enabling efficient management of customer accounts, transactions, and loan details with secure data storage and retrieval.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Pacman game using concepts of Design and Analysis of Algorithms (Group Project)</h3>
+            <p>Developed a Pacman game in Python by leveraging algorithmic concepts, to implement game mechanics
+                such as pathfinding, collision detection, and dynamic enemy movement.
+                <br><br>Analyzed and optimized the game’s algorithms for performance, ensuring smooth gameplay.
+
+            </p>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <div class="achievement">
+            <h3>Academic Achievements</h3>
+            <img src="D:\B. Tech Third Year\TY Sem 1\CNT\Portfolio_Chaitrali\Resources\Academics\Certificate _ NVIDIA.jpg" alt="Academic Achievement" class="achievement-img">
+            <p>Nvidia Deep Learning Fundamentals Certificate</p>        
+        </div>
+        <div class="achievement">
+            <h3>Academic Achievements</h3>
+            <img src="D:\B. Tech Third Year\TY Sem 1\CNT\Portfolio_Chaitrali\Resources\Academics\Coursera Main.jpg" alt="Extracurricular Achievement" class="achievement-img">
+            <p>Coursera DevOps and Software Engineering Professional Certificate</p>        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Chaitrali Ghule" required>
+            <input type="email" placeholder="info4chaitrali@gmail.com" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Chaitrali. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
